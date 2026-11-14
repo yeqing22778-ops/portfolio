@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>第一篇笔记（示例，可以删） · yeqing22778-ops</title>
+  <meta name="description" content="这是一篇示例笔记，用来演示 Markdown 支持到什么程度。删掉这个文件就不显示了。">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://yeqing22778-ops.pages.dev/notes/hello/">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+  <meta property="og:site_name" content="yeqing22778-ops">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="第一篇笔记（示例，可以删） · yeqing22778-ops">
+  <meta property="og:description" content="这是一篇示例笔记，用来演示 Markdown 支持到什么程度。删掉这个文件就不显示了。">
+  <meta property="og:url" content="https://yeqing22778-ops.pages.dev/notes/hello/">
+  <meta property="og:image" content="https://yeqing22778-ops.pages.dev/notes/hello/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="第一篇笔记（示例，可以删） · yeqing22778-ops">
+  <meta name="twitter:description" content="这是一篇示例笔记，用来演示 Markdown 支持到什么程度。删掉这个文件就不显示了。">
+  <meta name="twitter:image" content="https://yeqing22778-ops.pages.dev/notes/hello/og.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/assets/theme.js"></script>
+  <script defer src="/assets/analytics.js"></script>
+</head>
+<body data-page="note">
+  <header class="site-header">
+    <div class="wrap" data-header>
+      <a class="brand" href="/">yeqing22778-ops</a>
+      <div class="header-right">
+        <nav class="site-nav">
+          <a href="/#work">作品</a>
+          <a href="/notes/">笔记</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap" data-page-root>
+      <p class="crumbs"><a href="/">首页</a> / <a href="/notes/">笔记</a> / 第一篇笔记（示例，可以删）</p>
+      <article class="prose">
+        <h1>第一篇笔记（示例，可以删）</h1>
+        <time class="note-date" datetime="2026-11-14">2026-11-14</time>
+        <h1 id="h-8zl">这是笔记的正文</h1>
+<p>写在 <code>content/notes/</code> 里的 <code>.md</code> 文件会被编译成静态页面，构建之后不需要 JavaScript 也能读。</p>
+<h2 id="h-7oqj">支持哪些写法</h2>
+<ul><li><strong>粗体</strong>、<em>斜体</em>、<del>删除线</del></li><li><code>行内代码</code></li><li><a href="https://github.com/yeqing22778-ops">普通链接</a></li><li>无序列表和有序列表</li></ul>
+<ol><li>第一步</li><li>第二步</li></ol>
+<h3 id="h-cnp2">代码块</h3>
+<pre><code class="language-js">// 代码块里的内容会原样保留，不会被当成 HTML
+const hello = (name) =&gt; `你好，${name}`;
+console.log(hello(&#39;&lt;script&gt;不会执行&lt;/script&gt;&#39;));</code></pre>
+<h3 id="h-gyka">引用</h3>
+<blockquote><p>写下来才算真的想过。<br>引用可以连着写多行。</p></blockquote>
+<hr>
+<h2 id="h-g7m0">怎么写一篇新的</h2>
+<ol><li>在 <code>content/notes/</code> 新建一个 <code>.md</code> 文件</li><li>顶部三行 <code>---</code> 之间写标题、日期、摘要</li><li>保存，执行 <code>npm run build</code></li></ol>
+<p>文件名会变成网址：<code>my-note.md</code> → <code>/notes/my-note/</code>。<br>网址只用得到小写字母和连字符，中文文件名会自动转成短哈希，不会重复。</p>
+<h3 id="h-fkgg">图片</h3>
+<p>点一下图片会全屏放大，再点一下（或按 Esc）关闭。</p>
+<p><img src="/assets/og.png" alt="站点分享图" loading="lazy"></p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer" data-footer>
+    <div class="wrap footer-inner"><span>用 GitHub + Cloudflare Pages 搭的静态站点 · 2026</span></div>
+  </footer>
+  <script type="module" src="/assets/app.js"></script>
+</body>
+</html>

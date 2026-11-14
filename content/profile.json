@@ -1,0 +1,36 @@
+{
+  "name": "yeqing22778-ops",
+  "handle": "yeqing22778-ops",
+  "url": "https://yeqing22778-ops.pages.dev",
+  "tagline": "一个人的项目集",
+  "avatar": "",
+  "status": "正在搭第一个项目",
+  "bio": "第一批项目还在路上。这里先立个架子，写好一个就搬一个上来。",
+  "about": "这里写你的来路：为什么开始写东西、关心什么问题、习惯怎么做。\n\n两三段就够，太长没人读。段落之间空一行。",
+  "now": [
+    {
+      "label": "在做",
+      "value": "把作品集从骨架填成内容"
+    },
+    {
+      "label": "在学",
+      "value": "静态站点 + 边缘函数"
+    },
+    {
+      "label": "想要",
+      "value": "第一个真正有人用的项目"
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/yeqing22778-ops"
+    }
+  ],
+  "analytics": {
+    "provider": "cloudflare",
+    "enabled": false,
+    "token": ""
+  },
+  "footer": "用 GitHub + Cloudflare Pages 搭的静态站点"
+}

@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-11-14T12:21:59.084Z",
+  "notes": [
+    {
+      "slug": "hello",
+      "title": "第一篇笔记（示例，可以删）",
+      "date": "2026-11-14",
+      "summary": "这是一篇示例笔记，用来演示 Markdown 支持到什么程度。删掉这个文件就不显示了。",
+      "url": "https://yeqing22778-ops.pages.dev/notes/hello/"
+    }
+  ]
+}
