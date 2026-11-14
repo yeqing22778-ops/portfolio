@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /secret/
 Disallow: /404.html
 
-Sitemap: https://yeqing22778-ops.pages.dev/sitemap.xml
+Sitemap: https://portfolio-5rh.pages.dev/sitemap.xml

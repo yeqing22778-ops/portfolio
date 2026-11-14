@@ -247,12 +247,12 @@ draft: true   # 加这行就不发布，本地也不生成
 | `assets/og.png` | 手动 `npm run og`（已生成过一次） | 首页分享时的缩略图 |
 
 **部署后要改一处域名**：三个 HTML 里的绝对地址现在是占位域名
-`https://yeqing22778-ops.pages.dev`（在 `og:url` / `og:image` / `canonical` 里）。
+`https://portfolio-5rh.pages.dev`（在 `og:url` / `og:image` / `canonical` 里）。
 换成你的真实域名后，分享预览图才显示得出来：
 
 ```bash
 # 一次性替换（把新域名换进命令）
-grep -rl "yeqing22778-ops.pages.dev" index.html project.html | xargs sed -i 's|https://yeqing22778-ops.pages.dev|https://你的域名|g'
+grep -rl "portfolio-5rh.pages.dev" index.html project.html | xargs sed -i 's|https://portfolio-5rh.pages.dev|https://你的域名|g'
 ```
 
 同时把 `content/profile.json` 的 `url` 改成同一个域名——sitemap/feed 里的链接才会对。
